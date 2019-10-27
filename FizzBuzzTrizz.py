@@ -49,13 +49,13 @@ for n in range(rangI, rangF+1):
         print(f'Numero: {n}')
 
 print('Desea agregar un numero extra? S/N')
-respuesta = input('S/N: ') 
 while True:
     try:
+        respuesta = input('S/N: ') 
         if respuesta == 'S':
             numeroExtra()
             break
-        else:
+        if respuesta == 'N':
             print('Fin del programa')
             break
     except ValueError:
