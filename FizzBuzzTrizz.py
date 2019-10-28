@@ -9,7 +9,7 @@ def numeroExtra():
     print('Ahora elije tus numeros: ')
     num1 = int(input('Numero a convertir en Fizz: '))
     num2 = int(input('Numero a convertir en Buzz: '))
-    numExt = int(input('Numero a convertir en Buzz: '))
+    numExt = int(input('Numero a convertir en Trizz: '))
     print(f'El rango de numeros del {rangI} al {rangF}: ')
     for n in range(rangI, rangF+1):
         if n%num1 == 0 and n%num2 == 0 and n%numExt == 0:
